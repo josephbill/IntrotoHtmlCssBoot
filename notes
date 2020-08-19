@@ -1,0 +1,50 @@
+The BootStrap Grid System 
+
+- the grid system aids in layout templating
+- the grid is simply a grouping of rows and columns in 1 or more containers
+- The Bootstrap Grid can be used alone, without the Bootstrap JavaScript and other CSS Components. You just need to download and reference the “bootstrap-grid.css”
+- which contains the Grid and Flexbox classes.
+
+The Rules of the Grid:
+
+    Columns must be the immediate child of a Row.
+    Rows are only used to contain Columns, nothing else.
+    Rows should be placed inside a Container.
+
+
+The Container can be used to hold any elements and content. It’s not only used for the Grid Rows & Columns. For example, this is perfectly valid Bootstrap markup:
+
+<div class="container">
+   <h2>My Heading</h2> 
+   <div class="row"> 
+      <div class="col">I'm content inside the grid!</div> 
+   </div> 
+</div>
+
+in the above example : introduction of the h2 content
+
+the container is also important to control width of the layout. The Container is also used to evenly align the left and right edges of the layout within the browser’s viewport.
+
+    FYI: Viewport — The visible area inside the browser window.
+
+
+COLUMNS 
+
+The classic Bootstrap grid has 12 column units:
+So say u wanted to develop a page and have 6 columns inside : this is how u will determine the bootstrap column class : 12/6 : 2 so the class is class = "col-2" : if 3 columns the class is 12/3 : 4  so the class is col-4 
+
+so the html mark up will look like 
+
+<div class="container">
+<div class="row">
+//for 3 columns 
+<div class="col-4">1</div>
+<div class="col-4">1</div>
+<div class="col-4">1</div>
+</div>
+</div>
+
+
+How to Responsive Design with Bootstrap.
+
+https://medium.com/wdstack/how-to-bootstrap-94abe3525442
