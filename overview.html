@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Assignment Overview</title>
+    <!-- bootstrap cdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-grid.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!--        icon library-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style type="text/css">
+    #h4Design {
+        text-align: center;
+    }
+    .fa {
+    	     padding:20px;
+            font-size: 30px;
+            width: 30px;
+            text-align: center;
+            border-radius: 50%;
+            text-decoration: none;
+    }
+    </style>
+</head>
+
+<body>
+    <!-- we need to set up container first -->
+    <!-- navbar scripting -->
+    <div class="container">
+        <br>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Flower Shop</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#">Features</a>
+                    <a class="nav-item nav-link" href="#">Pricing</a>
+                    <a class="nav-item nav-link" href="#">New item</a>
+                    <a class="nav-item nav-link disabled" href="#">Disabled</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- end of navbar -->
+    <div class="container">
+        <br>
+        <h1 class="page-header"> Welcome to My Site</h1>
+        <hr>
+        <div class="jumbotron">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="rozen.jpg" style="width: 100px; height: 100px; 	text-align: center;
+">
+                    </div>
+                    <div class="col">
+                        <h4 id="h4Design">Intro Text</h4>
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <!-- grid container for my forms  -->
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h3>Login Here</h3>
+                    <!-- here login form -->
+                    <form>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Enter your Email Address" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" name="password" placeholder="Enter password" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <a type="btn" class="btn btn-primary">Login</a>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col">
+                    <h3>Sign Up Here</h3>
+                    <!-- here registration form  -->
+                    <form>
+                        <div class="form-group">
+                            <input type="name" name="name" placeholder="Enter Name" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Enter Email Address" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" name="password" placeholder="Enter password" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" name="cpassword" placeholder="Confirm password" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-warning" style="color: #fff;">Register </button>
+                            <button class="btn btn-danger" style="color: #fff;">Reset </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+
+    	<div class="container">
+    		<h3 >Get In Touch</h3>
+            <a href="https://www.facebook.com" target="_blank" class="fa fa-facebook">   </a>
+            <a href="https://www.instagram.com" target="_blank" class="fa fa-instagram">   </a>
+            <a href="https://www.twitter.com" target="_blank" class="fa fa-twitter">   </a>
+            <a href="https://www.gmail.com" target="_blank" class="fa fa-envelope">   </a>
+       
+
+    	</div>
+    	
+    </footer>
+</body>
+
+</html>
